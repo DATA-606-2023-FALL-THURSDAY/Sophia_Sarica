@@ -69,4 +69,16 @@ June 2018 - Dec 2018, Baltimore
 - Conducted in-depth analysis of patient planar and tomographic image datasets using Image J, extracting critical radiology activity measurements for accurate dosimetry calculations.
 - Collaborated with a multidisciplinary team of oncologists, radiologists, and medical physicists to interpret imaging data and optimize treatment strategies for pediatric patients.
 
-**Projects
+## UMBC Projects
+
+**Sept – Dec 2021, Maryland Car Crashes Analysis – Intro to Data Science (601)**
+
+- Conducted an in-depth analysis of vehicle datasets, focusing on car make, model, and year.
+- Identified car models involved in fatal crashes, providing valuable insights for car manufacturers to enhance product quality.
+
+**Sept – Dec 2022, Campaign Finance Analysis – Platforms for Big Data Processing (603)**
+
+- Analyzed raw campaign finance data from the Federal Election Commission (FEC) to provide valuable insights into campaign expenditures during elections.
+- Transformed raw data into meaningful information, highlighting candidate and committee contributions, and identifying top contributing states.
+- This analysis serves as a foundation for predictive analytics in future campaigns.
+
