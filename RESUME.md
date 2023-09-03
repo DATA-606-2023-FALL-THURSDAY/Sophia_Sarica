@@ -69,3 +69,4 @@ June 2018 - Dec 2018, Baltimore
 - Conducted in-depth analysis of patient planar and tomographic image datasets using Image J, extracting critical radiology activity measurements for accurate dosimetry calculations.
 - Collaborated with a multidisciplinary team of oncologists, radiologists, and medical physicists to interpret imaging data and optimize treatment strategies for pediatric patients.
 
+**Projects
