@@ -71,12 +71,12 @@ June 2018 - Dec 2018, Baltimore
 
 ## UMBC Projects
 
-**Sept – Dec 2021, Maryland Car Crashes Analysis – Intro to Data Science (601)**
+**Sept – Dec 2021, Maryland Car Crashes Analysis**
 
 - Conducted an in-depth analysis of vehicle datasets, focusing on car make, model, and year.
 - Identified car models involved in fatal crashes, providing valuable insights for car manufacturers to enhance product quality.
 
-**Sept – Dec 2022, Campaign Finance Analysis – Platforms for Big Data Processing (603)**
+**Sept – Dec 2022, Campaign Finance Analysis**
 
 - Analyzed raw campaign finance data from the Federal Election Commission (FEC) to provide valuable insights into campaign expenditures during elections.
 - Transformed raw data into meaningful information, highlighting candidate and committee contributions, and identifying top contributing states.
