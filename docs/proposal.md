@@ -14,6 +14,12 @@ This dataset amalgamates critical data from two distinct sources: the Sewer Syst
 - **ACTIVITY_CODE:** Denotes the type of activity associated with each SL-RAT assessment.
 - **COMPLETED_DATE (datetime64[ns]):** Indicates the date of completion for the activity.
 - **SLRAT_SCORE (float64):** The pivotal SL-RAT score, a numeric value ranging from 0 to 10, signifying the condition of the sewer line.
+
+
+### GIS Table:
+The FACILITYID (object) column serves as the primary key to join the GIS table with the Workorder table, facilitating the integration of geographical attributes.
+
+- **FACILITYID (object):** A unique identifier representing individual segments between two manholes in the sewer system.
 - **TYPE (object):** Describes the type of pipe associated with the facility.
 - **LINING_TYP (object):** Represents the type of pipe connections used.
 - **PIPE_SIZE (float64):** Specifies the size of the pipe.
@@ -22,8 +28,6 @@ This dataset amalgamates critical data from two distinct sources: the Sewer Syst
 - **LENGTH (float64):** Denotes the length of the pipe segment.
 - **INSTALL_DATE:** Reflects the time elapsed since the installation date.
 
-### GIS Table:
-The FACILITYID (object) column serves as the primary key to join the GIS table with the Workorder table, facilitating the integration of geographical attributes.
 
 ### Machine Learning (ML) Model Considerations:
 For ML model development, the following columns are crucial:
