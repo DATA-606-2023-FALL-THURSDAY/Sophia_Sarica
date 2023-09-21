@@ -1,6 +1,24 @@
 # SL-RAT Score Predicton  Project
 *September 03, 2023*
 
+
+## Title and Author
+
+- SL-RAT Degradation Rate Prediction Project
+
+- Prepared for UMBC Data Science Master Degree Capstone by: Dr. Chaojie (Jay) Wang
+- Sophia Sarica
+- [Author's  GitHub Repository](https://github.com/DATA-606-2023-FALL-THURSDAY/Sarica_Sophia/tree/main)
+- [Author's LinkedIn Profile](https://www.linkedin.com/in/sophiasarica/)
+- Link to your PowerPoint presentation file
+- Link to your YouTube video
+
+
+
+
+
+
+
 ## Background
 
 The Sewer Line Rapid Assessment Tool (SL-RAT) represents a pivotal advancement in wastewater management, harnessing cutting-edge acoustic technology to offer real-time assessments of sewer line blockages. This innovation empowers collection system operators to make informed decisions regarding the allocation of cleaning efforts, a critical element in ensuring the seamless operation of sewer systems. The integration of SL-RAT technology holds immense significance, allowing operators to focus their resources precisely where and when needed most, thereby conserving time, water, and financial resources. The tool's ability to generate scores ranging from 0 to 10 following its application to a pipe is a game-changer. A score within the 0-3 range is a vital indicator of immediate blockage, demanding urgent attention. This project explores the potential of determining degradation rates and SL-RAT scores to revolutionize the efficiency of sewer preventive maintenance operations, ultimately benefitting system owners by optimizing their financial, staff, and equipment resources for a more sustainable and cost-effective approach to sewer system management.
