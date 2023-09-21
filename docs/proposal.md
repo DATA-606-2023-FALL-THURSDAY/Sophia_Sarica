@@ -1,10 +1,10 @@
-# SL-RAT Score Predicton  Project
+# SL-RAT Score Degradation Rate Predicton  Project
 *September 03, 2023*
 
 
 ## Title and Author
 
-- SL-RAT Degradation Rate Prediction Project
+- SL-RAT Score Degradation Rate Prediction Project
 
 - Prepared for UMBC Data Science Master Degree Capstone by: Dr. Chaojie (Jay) Wang
 - Sophia Sarica
