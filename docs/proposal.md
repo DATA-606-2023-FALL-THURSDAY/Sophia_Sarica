@@ -48,7 +48,7 @@ The FACILITYID (object) column serves as the primary key to join the GIS table w
 
 ### Machine Learning (ML) Model Considerations:
 For ML model development, the following columns are crucial:
-- **Rate (float64):** Calculated column using COMPLETED_DATE and SLRAT_SCORE. This column will be the target variable and represent 0 and 1 for the ML model.
+- **Rate (float64):** Calculated column using COMPLETED_DATE and SLRAT_SCORE. This column converted  to the target variable with the given criteria and represent 0 and 1 for the ML model.
 - **TYPE (object):** Categorical feature denoting the type of pipe.
 - **LINING_TYP (object):** Categorical feature describing the type of pipe connections.
 - **PIPE_SIZE (float64):** Numerical feature indicating the pipe size.
