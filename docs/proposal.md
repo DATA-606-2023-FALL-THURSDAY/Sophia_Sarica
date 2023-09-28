@@ -29,6 +29,8 @@ This dataset amalgamates critical data from two distinct sources: the Sewer Syst
 
 ### Workorder Table Columns:
 - **FACILITYID (object):** A unique identifier representing individual segments between two manholes in the sewer system.
+- **WORKORDERID (int64):** Unique Workorder Number for each assesments for the asset.
+- **DESCRIPTION (OBJECT):** The description is structured in a way to indicate the nature of the work such as inspection, maintenance, repair etc. 
 - **COMPLETED_DATE (datetime64[ns]):** Indicates the date of completion for the activity.
 - **SLRAT_SCORE (float64):** The pivotal SL-RAT score, a numeric value ranging from 0 to 10, signifying the condition of the sewer line.
 
