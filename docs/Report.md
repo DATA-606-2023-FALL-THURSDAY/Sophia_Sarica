@@ -46,8 +46,6 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 
 ### Distribution of Numerical Features
 
-## Distribution of Numerical Features
-
 
 ![Distribution of PIPE_SIZE](Screen%20Shot%202023-11-29%20at%2010.41.04%20PM.png)
 
@@ -77,3 +75,30 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 
 - **Imbalance in Target Variable**: The target variable shows some imbalance with more instances of class 1 compared to class 0.
 - **Model Training Consideration**: This imbalance will need to be accounted for in the model training phase.
+
+
+## Model Evaluation Summary
+
+# Model Performance Comparison
+
+After conducting a GridSearch to optimize the Random Forest model with the best hyperparameters, we observe the following comparison of metrics:
+
+| Metric                  | Configuration 1 (Grid Search) | Configuration 2 (Default Params) |
+|-------------------------|-------------------------------|----------------------------------|
+| **Accuracy**            | 86.90%                        | 85.79%                           |
+| **Precision - Class 0** | 85.86%                        | 84.83%                           |
+| **Precision - Class 1** | 88.10%                        | 86.90%                           |
+| **Recall - Class 0**    | 89.25%                        | 88.17%                           |
+| **Recall - Class 1**    | 84.41%                        | 83.27%                           |
+| **F1-Score - Class 0**  | 87.52%                        | 86.47%                           |
+| **F1-Score - Class 1**  | 86.21%                        | 85.05%                           |
+| **Macro Avg Precision** | 86.98%                        | 85.87%                           |
+| **Macro Avg Recall**    | 86.83%                        | 85.72%                           |
+| **Macro Avg F1-Score**  | 86.87%                        | 85.76%                           |
+| **Weighted Avg Precision** | 86.95%                    | 85.84%                           |
+| **Weighted Avg Recall** | 86.90%                        | 85.79%                           |
+| **Weighted Avg F1-Score** | 86.87%                    | 85.79%                           |
+
+Configuration 1 represents the model with hyperparameters optimized using GridSearch, whereas Configuration 2 runs with the algorithm's default parameters. The comparison clearly indicates improved performance across all metrics for the optimized model.
+
+
