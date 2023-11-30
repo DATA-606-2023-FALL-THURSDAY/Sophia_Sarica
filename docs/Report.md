@@ -98,19 +98,37 @@ After conducting a GridSearch to optimize the Random Forest model with the best 
 | **Weighted Avg Recall** | 86.90%                        | 85.79%                           |
 | **Weighted Avg F1-Score** | 86.87%                    | 85.79%                           |
 
-Configuration 1 represents the model with hyperparameters optimized using GridSearch, whereas Configuration 2 runs with the algorithm's default parameters. The comparison clearly indicates improved performance across all metrics for the optimized model.
+Configuration 1 represents the model with hyperparameters optimized using GridSearch, whereas Configuration 2 runs with the algorithm's default parameters. 
 
-### ROC Curve Evaluation Comparison
+
+- **Accuracy**: Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
+
+- **Precision**:
+  - For class 0, Configuration 1 has a precision of `85.86%`, marginally higher than Configuration 2's `84.83%`.
+  - For class 1, Configuration 1 also outperforms with `88.10%` over `86.90%`.
+
+- **Recall**:
+  - For class 0, Configuration 1 shows a higher recall at `89.25%` versus `88.17%` for Configuration 2.
+  - For class 1, however, Configuration 1 has a lower recall of `84.41%` compared to Configuration 2's `83.27%`.
+
+- **F1-Score**:
+  - For class 0, Configuration 1 leads with `87.52%` and `86.21%` for class 1, against Configuration 2's `86.47%` and `85.05%` respectively.
+
+
+The comparison clearly indicates improved performance across all metrics for the optimized model.
+
+## ROC Curve Evaluation Comparison
 
 The ROC curves for the Naive Bayes and Random Forest models are depicted below, illustrating the performance of each model in terms of the trade-off between the True Positive Rate and False Positive Rate.
 
-## Naive Bayes Model
+### Naive Bayes Model
 ![ROC Curve - Naive Bayes](Screen%20Shot%202023-11-29%20at%2010.59.06%20PM.png)
 *The AUC (Area Under the Curve) for the Naive Bayes model is 0.66, indicating a fair level of predictive ability.*
 
-## Random Forest Model
+### Random Forest Model
 ![ROC Curve - Random Forest](Screen%20Shot%202023-11-29%20at%2010.58.54%20PM.png)
 *The AUC for the Random Forest model is 0.94, signifying a high level of predictive ability.*
 
 Comparatively, the Random Forest model demonstrates a significantly better performance with a higher AUC value, indicating a more accurate model for classification tasks.
+
 
