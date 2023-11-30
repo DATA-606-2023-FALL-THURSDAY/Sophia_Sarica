@@ -63,5 +63,9 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 
 ### Distribution of the Target Variable
 
+
+![Distribution of Target Variable](Screen%20Shot%202023-11-29%20at%2010.27.17%20PM.png)
+
+
 - **Imbalance in Target Variable**: The target variable shows some imbalance with more instances of class 1 compared to class 0.
 - **Model Training Consideration**: This imbalance will need to be accounted for in the model training phase.
