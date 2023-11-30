@@ -101,7 +101,8 @@ After conducting a GridSearch to optimize the Random Forest model with the best 
 Configuration 1 represents the model with hyperparameters optimized using GridSearch, whereas Configuration 2 runs with the algorithm's default parameters. 
 
 
-- **Accuracy**: Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
+- **Accuracy**: 
+- Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
 
 - **Precision**:
   - For class 0, Configuration 1 has a precision of `85.86%`, marginally higher than Configuration 2's `84.83%`.
@@ -132,3 +133,7 @@ The ROC curves for the Naive Bayes and Random Forest models are depicted below, 
 Comparatively, the Random Forest model demonstrates a significantly better performance with a higher AUC value, indicating a more accurate model for classification tasks.
 
 
+## Conclusion
+
+
+The RandomForest model has proven to be effective in managing infrastructure, particularly in the context of sewer systems. When fine-tuned and calibrated to balance classes appropriately, it demonstrates a high degree of predictive accuracy. Such a model is instrumental in improving and extending the lifespan of sewer infrastructure by proactively preventing breakdowns before they occur, ensuring more reliable and uninterrupted service.
