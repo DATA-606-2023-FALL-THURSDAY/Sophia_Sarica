@@ -40,6 +40,28 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 - **LENGTH (float64):** Denotes the length of the pipe segment.
 - **INSTALL_DATE:** Reflects the time elapsed since the installation date.
 
-## Results of EDA
 
 
+## Exploratory Data Analysis (EDA) - Key Observations and Interpretations
+
+### Distribution of Numerical Features
+
+- **Pipe Sizes**: Most of the pipe sizes center around 8 units.
+- **Slopes**: Most slopes are less than 5, with a few exceptions.
+- **Length Distribution**: The distribution appears fairly uniform, with a slight skew towards shorter lengths.
+- **Feature 1**: The distribution is slightly left-skewed, with most values around 300 to 400.
+- **Feature 2 (UPSTREAM_I)**: Similar to UPSTREAM_I, most values are around 300 to 400.
+- **Installation Periods**: The distribution shows multiple peaks, indicating that installations occurred in different periods.
+
+### Correlation Matrix
+
+
+![Correlation Matrix](Screen%20Shot%202023-11-29%20at%2010.27.05%20PM.png)
+
+- **General Observation**: None of the numerical features have a strong correlation with each other.
+- **Specific Correlation**: The highest correlation is between `UPSTREAM_I` and `DOWNSTREAM` with a value of 0.96, which is expected as they are related parameters.
+
+### Distribution of the Target Variable
+
+- **Imbalance in Target Variable**: The target variable shows some imbalance with more instances of class 1 compared to class 0.
+- **Model Training Consideration**: This imbalance will need to be accounted for in the model training phase.
