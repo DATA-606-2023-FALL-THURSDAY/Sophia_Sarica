@@ -100,4 +100,17 @@ After conducting a GridSearch to optimize the Random Forest model with the best 
 
 Configuration 1 represents the model with hyperparameters optimized using GridSearch, whereas Configuration 2 runs with the algorithm's default parameters. The comparison clearly indicates improved performance across all metrics for the optimized model.
 
+### ROC Curve Evaluation Comparison
+
+The ROC curves for the Naive Bayes and Random Forest models are depicted below, illustrating the performance of each model in terms of the trade-off between the True Positive Rate and False Positive Rate.
+
+## Naive Bayes Model
+![ROC Curve - Naive Bayes](Screen Shot 2023-11-29 at 10.59.06 PM.png)
+*The AUC (Area Under the Curve) for the Naive Bayes model is 0.66, indicating a fair level of predictive ability.*
+
+## Random Forest Model
+![ROC Curve - Random Forest](Screen Shot 2023-11-29 at 10.58.54 PM.png)
+*The AUC for the Random Forest model is 0.94, signifying a high level of predictive ability.*
+
+Comparatively, the Random Forest model demonstrates a significantly better performance with a higher AUC value, indicating a more accurate model for classification tasks.
 
