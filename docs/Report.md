@@ -79,9 +79,8 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 
 ## Model Evaluation Summary
 
-# Model Performance Comparison
 
-After conducting a GridSearch to optimize the Random Forest model with the best hyperparameters, we observe the following comparison of metrics:
+After conducting a GridSearch to optimize the Random Forest model with the best hyperparameters, observed the following comparison of metrics:
 
 | Metric                  | Configuration 1 (Grid Search) | Configuration 2 (Default Params) |
 |-------------------------|-------------------------------|----------------------------------|
