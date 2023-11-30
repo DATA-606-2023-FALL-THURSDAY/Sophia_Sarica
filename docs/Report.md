@@ -46,6 +46,14 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 
 ### Distribution of Numerical Features
 
+## Distribution of Numerical Features
+
+
+![Distribution of PIPE_SIZE](Screen%20Shot%202023-11-29%20at%2010.41.04%20PM.png)
+
+![Distribution of UPSTREAM_I](Screen%20Shot%202023-11-29%20at%2010.41.22%20PM.png)
+
+
 - **Pipe Sizes**: Most of the pipe sizes center around 8 units.
 - **Slopes**: Most slopes are less than 5, with a few exceptions.
 - **Length Distribution**: The distribution appears fairly uniform, with a slight skew towards shorter lengths.
