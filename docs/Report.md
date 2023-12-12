@@ -116,7 +116,7 @@ These results demonstrate significant improvements in the model's performance ac
 
 ### Random Forest Model Performance: Grid Search Optimization vs. Default Parameters
 
-After conducting a GridSearch to optimize the Random Forest model, we observed significant improvements in performance metrics compared to the model with default parameters. Below is the comparison:
+After conducting a GridSearch to optimize the Random Forest model, we observed slightly improvements in performance metrics compared to the model with default parameters. Below is the comparison:
 
 #### Model Configuration Comparison:
 
@@ -136,6 +136,8 @@ After conducting a GridSearch to optimize the Random Forest model, we observed s
 | Weighted Avg Recall    | 86.90%                                       | 85.79%                               |
 | Weighted Avg F1-Score  | 86.87%                                       | 85.79%                               |
 
+Configuration 1 represents the model with hyperparameters optimized using GridSearch, whereas Configuration 2 runs with the algorithm's default parameters. 
+
 #### Analysis:
 
 - **Accuracy:** Configuration 1 achieves a higher accuracy of 86.90%, compared to Configuration 2's 85.79%.
@@ -143,44 +145,6 @@ After conducting a GridSearch to optimize the Random Forest model, we observed s
 - **Recall:** Configuration 1 exhibits a higher recall for Class 0 (89.25%), but a slightly lower recall for Class 1 (84.41%) compared to Configuration 2.
 - **F1-Score:** Configuration 1 leads in F1-Scores for both classes, indicating a better balance between precision and recall.
 
-These results clearly demonstrate the effectiveness of hyperparameter optimization via GridSearch in enhancing the model's overall performance.
-
-
-| Metric                  | Configuration 1 (Grid Search) | Configuration 2 (Default Params) |
-|-------------------------|-------------------------------|----------------------------------|
-| **Accuracy**            | 86.90%                        | 85.79%                           |
-| **Precision - Class 0** | 85.86%                        | 84.83%                           |
-| **Precision - Class 1** | 88.10%                        | 86.90%                           |
-| **Recall - Class 0**    | 89.25%                        | 88.17%                           |
-| **Recall - Class 1**    | 84.41%                        | 83.27%                           |
-| **F1-Score - Class 0**  | 87.52%                        | 86.47%                           |
-| **F1-Score - Class 1**  | 86.21%                        | 85.05%                           |
-| **Macro Avg Precision** | 86.98%                        | 85.87%                           |
-| **Macro Avg Recall**    | 86.83%                        | 85.72%                           |
-| **Macro Avg F1-Score**  | 86.87%                        | 85.76%                           |
-| **Weighted Avg Precision** | 86.95%                    | 85.84%                           |
-| **Weighted Avg Recall** | 86.90%                        | 85.79%                           |
-| **Weighted Avg F1-Score** | 86.87%                    | 85.79%                           |
-
-Configuration 1 represents the model with hyperparameters optimized using GridSearch, whereas Configuration 2 runs with the algorithm's default parameters. 
-
-
-- **Accuracy**: 
-  - Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
-
-- **Precision**:
-  - For class 0, Configuration 1 has a precision of `85.86%`, marginally higher than Configuration 2's `84.83%`.
-  - For class 1, Configuration 1 also outperforms with `88.10%` over `86.90%`.
-
-- **Recall**:
-  - For class 0, Configuration 1 shows a higher recall at `89.25%` versus `88.17%` for Configuration 2.
-  - For class 1, however, Configuration 1 has a lower recall of `84.41%` compared to Configuration 2's `83.27%`.
-
-- **F1-Score**:
-  - For class 0, Configuration 1 leads with `87.52%` and `86.21%` for class 1, against Configuration 2's `86.47%` and `85.05%` respectively.
-
-
-The comparison clearly indicates improved performance across all metrics for the optimized model.
 
 ## ROC Curve Evaluation Comparison
 
