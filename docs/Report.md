@@ -11,7 +11,8 @@ Prepared for the UMBC Data Science Master's Degree Capstone
 - **Author's GitHub Repository:** [DATA-606-2023-FALL-THURSDAY/Sarica_Sophia](https://github.com/DATA-606-2023-FALL-THURSDAY/Sarica_Sophia/tree/main)
 - **Author's LinkedIn Profile:** [Sophia Sarica on LinkedIn](https://www.linkedin.com/in/sophiasarica/)
 - **PowerPoint Presentation:** [Google Drive Link](https://docs.google.com/presentation/d/1dSqiAfP1anTtzu7SzB0HDjxOEkOUnNh4/edit?usp=drive_link&ouid=114108728469769953895&rtpof=true&sd=true)
-- **YouTube Video:** _(Placeholder for YouTube video link)_
+- **PowerPoint Presentation/Recording:** [Google Drive Link](https://docs.google.com/presentation/d/1DeDVeLofCdsgJRr18nxUeLW_5GKbDpdX/edit?usp=drive_link)
+
 
 
 ## Background
@@ -102,7 +103,7 @@ Configuration 1 represents the model with hyperparameters optimized using GridSe
 
 
 - **Accuracy**: 
-- Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
+ - Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
 
 - **Precision**:
   - For class 0, Configuration 1 has a precision of `85.86%`, marginally higher than Configuration 2's `84.83%`.
@@ -130,7 +131,7 @@ The ROC curves for the Naive Bayes and Random Forest models are depicted below, 
 ![ROC Curve - Random Forest](Screen%20Shot%202023-11-29%20at%2010.58.54%20PM.png)
 *The AUC for the Random Forest model is 0.94, signifying a high level of predictive ability.*
 
-Comparatively, the Random Forest model demonstrates a significantly better performance with a higher AUC value, indicating a more accurate model for classification tasks.
+Comparatively, the Random Forest model demonstrates a significantly better performance with a higher AUC value, indicating a more accurate model for classification.
 
 
 ## Conclusion
