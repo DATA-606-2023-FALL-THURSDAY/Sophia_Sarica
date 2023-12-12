@@ -63,7 +63,7 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 ### Correlation Matrix
 
 
-![Correlation Matrix](Screen%20Shot%202023-12-12%20at%201.33.50%20PM.png)
+![Correlation Matrix](Screen%20Shot%202023-12-12%20at%202.30.30%20PM.png)
 
 - **General Observation**: None of the numerical features have a strong correlation with each other.
 - **Specific Correlation**: The highest correlation is between `UPSTREAM_I` and `DOWNSTREAM` with a value of 0.96, which is expected as they are related parameters.
