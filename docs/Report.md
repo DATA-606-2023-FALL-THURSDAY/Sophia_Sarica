@@ -80,6 +80,40 @@ This dataset combines critical data from two distinct sources: The Sewer System 
 
 ## Model Evaluation Summary
 
+### Random Forest Classifier Performance Without Oversampling
+
+The application of the RandomForestClassifier on the dataset without handling the imbalanced target data yielded the following baseline performance metrics:
+
+| Metric     | Score (%) |
+|------------|-----------|
+| Accuracy   | 73.68     |
+| Precision  | 71.58     |
+| Recall     | 73.68     |
+| F1 Score   | 69.63     |
+
+These results indicate a moderate level of effectiveness for the Random Forest Classifier under these conditions, highlighting potential areas for improvement in balancing the model's precision and recall.
+
+### Enhanced Random Forest Classifier Performance After Data Preprocessing
+
+Data preprocessing steps such as encoding categorical variables, scaling features, and addressing imbalanced target data have led to the following improved performance metrics:
+
+#### Class-wise Performance:
+
+| Class   | Precision | Recall  | F1-Score | Support  |
+|---------|-----------|---------|----------|----------|
+| Class 0 | 84.83%    | 88.17%  | 86.47%   | 279      |
+| Class 1 | 86.90%    | 83.27%  | 85.05%   | 263      |
+
+#### Overall Performance:
+
+| Metric       | Score   | 
+|--------------|---------|
+| Accuracy     | 85.79%  | 
+| Macro Avg    | 85.87%  | 
+| Weighted Avg | 85.84%  | 
+
+These results demonstrate significant improvements in the model's performance across all metrics, indicating the effectiveness of the preprocessing steps in enhancing model accuracy and balance between precision and recall.
+
 
 After conducting a GridSearch to optimize the Random Forest model with the best hyperparameters, observed the following comparison of metrics:
 
