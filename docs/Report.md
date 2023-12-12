@@ -1,5 +1,5 @@
 
-- **Sophia Sarica, Fall 2023**
+**Sophia Sarica, Fall 2023**
 
 
 # SL-RAT Score Degradation Rate Prediction Project
