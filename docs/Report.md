@@ -114,8 +114,37 @@ Data preprocessing steps such as encoding categorical variables, scaling feature
 
 These results demonstrate significant improvements in the model's performance across all metrics, indicating the effectiveness of the preprocessing steps in enhancing model accuracy and balance between precision and recall.
 
+### Random Forest Model Performance: Grid Search Optimization vs. Default Parameters
 
-After conducting a GridSearch to optimize the Random Forest model with the best hyperparameters, observed the following comparison of metrics:
+After conducting a GridSearch to optimize the Random Forest model, we observed significant improvements in performance metrics compared to the model with default parameters. Below is the comparison:
+
+#### Model Configuration Comparison:
+
+| Metric                 | Configuration 1 (Optimized with Grid Search) | Configuration 2 (Default Parameters) |
+|------------------------|----------------------------------------------|--------------------------------------|
+| Accuracy               | 86.90%                                       | 85.79%                               |
+| Precision - Class 0    | 85.86%                                       | 84.83%                               |
+| Precision - Class 1    | 88.10%                                       | 86.90%                               |
+| Recall - Class 0       | 89.25%                                       | 88.17%                               |
+| Recall - Class 1       | 84.41%                                       | 83.27%                               |
+| F1-Score - Class 0     | 87.52%                                       | 86.47%                               |
+| F1-Score - Class 1     | 86.21%                                       | 85.05%                               |
+| Macro Avg Precision    | 86.98%                                       | 85.87%                               |
+| Macro Avg Recall       | 86.83%                                       | 85.72%                               |
+| Macro Avg F1-Score     | 86.87%                                       | 85.76%                               |
+| Weighted Avg Precision | 86.95%                                       | 85.84%                               |
+| Weighted Avg Recall    | 86.90%                                       | 85.79%                               |
+| Weighted Avg F1-Score  | 86.87%                                       | 85.79%                               |
+
+#### Analysis:
+
+- **Accuracy:** Configuration 1 achieves a higher accuracy of 86.90%, compared to Configuration 2's 85.79%.
+- **Precision:** Both classes show improved precision in Configuration 1, with Class 0 at 85.86% and Class 1 at 88.10%.
+- **Recall:** Configuration 1 exhibits a higher recall for Class 0 (89.25%), but a slightly lower recall for Class 1 (84.41%) compared to Configuration 2.
+- **F1-Score:** Configuration 1 leads in F1-Scores for both classes, indicating a better balance between precision and recall.
+
+These results clearly demonstrate the effectiveness of hyperparameter optimization via GridSearch in enhancing the model's overall performance.
+
 
 | Metric                  | Configuration 1 (Grid Search) | Configuration 2 (Default Params) |
 |-------------------------|-------------------------------|----------------------------------|
@@ -137,7 +166,7 @@ Configuration 1 represents the model with hyperparameters optimized using GridSe
 
 
 - **Accuracy**: 
- - Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
+  - Configuration 1 achieves a slightly higher accuracy at `86.90%` compared to Configuration 2's `85.79%`.
 
 - **Precision**:
   - For class 0, Configuration 1 has a precision of `85.86%`, marginally higher than Configuration 2's `84.83%`.
