@@ -116,7 +116,7 @@ These results demonstrate significant improvements in the model's performance ac
 
 ### Random Forest Model Performance: Grid Search Optimization vs. Default Parameters
 
-After conducting a GridSearch to optimize the Random Forest model, we observed slightly improvements in performance metrics compared to the model with default parameters. Below is the comparison:
+After conducting a GridSearch to optimize the Random Forest model, observing slightly improvements in performance metrics compared to the model with default parameters. Below is the comparison:
 
 #### Model Configuration Comparison:
 
@@ -146,6 +146,7 @@ Configuration 1 represents the model with hyperparameters optimized using GridSe
 - **F1-Score:** Configuration 1 leads in F1-Scores for both classes, indicating a better balance between precision and recall.
 
 
+
 ## ROC Curve Evaluation Comparison
 
 The ROC curves for the Naive Bayes and Random Forest models are depicted below, illustrating the performance of each model in terms of the trade-off between the True Positive Rate and False Positive Rate.
@@ -163,5 +164,4 @@ Comparatively, the Random Forest model demonstrates a significantly better perfo
 
 ## Conclusion
 
-
-The RandomForest model has proven to be effective in managing infrastructure, particularly in the context of sewer systems. When fine-tuned and calibrated to balance classes appropriately, it demonstrates a high degree of predictive accuracy. Such a model is instrumental in improving and extending the lifespan of sewer infrastructure by proactively preventing breakdowns before they occur, ensuring more reliable and uninterrupted service.
+The RandomForest model has demonstrated exceptional effectiveness in infrastructure management, particularly for sewer systems. When precisely fine-tuned and calibrated to address class imbalances, the model exhibits a remarkable degree of predictive accuracy. This accuracy is crucial for enhancing the maintenance and extending the lifespan of sewer infrastructure. By proactively identifying and preventing potential system breakdowns, the RandomForest model can become an instrumental tool in ensuring continuous and reliable service. Its application not only optimizes operational efficiency but also significantly contributes to the sustainability and uninterrupted functionality of essential community infrastructure.
