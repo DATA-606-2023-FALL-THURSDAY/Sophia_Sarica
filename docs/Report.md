@@ -11,7 +11,7 @@ Prepared for the UMBC Data Science Master's Degree Capstone
 - **Author's GitHub Repository:** [DATA-606-2023-FALL-THURSDAY/Sarica_Sophia](https://github.com/DATA-606-2023-FALL-THURSDAY/Sarica_Sophia/tree/main)
 - **Author's LinkedIn Profile:** [Sophia Sarica on LinkedIn](https://www.linkedin.com/in/sophiasarica/)
 - **PowerPoint Presentation:** [Google Drive Link](https://docs.google.com/presentation/d/1dSqiAfP1anTtzu7SzB0HDjxOEkOUnNh4/edit?usp=drive_link&ouid=114108728469769953895&rtpof=true&sd=true)
-- **PowerPoint Presentation/Recording:** [Google Drive Link](https://docs.google.com/presentation/d/1DeDVeLofCdsgJRr18nxUeLW_5GKbDpdX/edit?usp=drive_link)
+- **YouTube Video:** [YouTube Link](https://www.youtube.com/watch?v=kLn1afEROxs)
 
 
 
